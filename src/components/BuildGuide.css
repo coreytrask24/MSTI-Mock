@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Open Sans, sans-serif;
+}
+
+.menu{
+    position: fixed;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #262626;
+    width: 100%;
+
+}
+
+.menu a{
+    font-size: 18px;
+    padding: 15px 0;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: red;
+}
+
+.section{
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+}
+
+.content .section:nth-child(1){
+    background-color: #DB4105;
+
+}
+
+.content .section:nth-child(2){
+    background-color: black;
+
+}
+.content .section:nth-child(3){
+    background-color: #212d33;
+
+}
+
+.content .section:nth-child(4){
+    background-color: #5c5a5a;
+
+}
+
+.content .section:nth-child(5){
+    background-color: #FF0000;
+
+}
+
+section h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 15em;
+    color: #00000050;
+
+}
+.pic{
+    display: inline-block;
+}
+.picture-size{
+    display:inline-block;
+    margin-top: 200px;
+    margin-left: 100px;
+    height:600px;
+    width:550px;
+}
+
+.picture-size2{
+    display:inline-block;
+    margin-top: 400px;
+    margin-left: 300px;
+    height:200px;
+    width:150px;
+}
+
+.picture-size3{
+    display:inline-block;
+    margin-top: 200px;
+    margin-left: 50px;
+    height:600px;
+    width:600px;
+}
+
+.picture-size4{
+    display:inline-block;
+    margin-top: 450px;
+    margin-left: 50px;
+    height:100px;
+    width:600px;
+}
+
+.picture-size5{
+    display:inline-block;
+    margin-top: 400px;
+    margin-left: 50px;
+    height:200px;
+    width:600px;
+}
+
+.video{
+     margin-top: 200px;
+     margin-right: 90px;
+     padding-bottom: 120px ;
+}
+
+.float{
+    float: right;
+}
+.bottom{
+     display:inline-block;
+    align-items: center !important; 
+    margin: 60px 836px;
+}
+.bottom2{
+    display:inline-block;
+   align-items: center !important; 
+   margin: 250px 836px;
+}
+
+.bottom3{
+    display:inline-block;
+   align-items: center !important; 
+   margin: 50px 836px;
+}
+
+.bottom4{
+    display:inline-block;
+   align-items: center !important; 
+   margin: 300px 836px;
+}
+
+.bottom5{
+    display:inline-block;
+   align-items: center !important; 
+   margin: 250px 836px;
+}

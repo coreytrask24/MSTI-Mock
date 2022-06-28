@@ -1,0 +1,175 @@
+
+
+.post{
+ height: 100%;
+width: 50%;
+background: rgba(0, 0, 0, 0.2);
+/* align-items: center;
+align-self: center;
+justify-content: center; */
+display: relative;
+background-position: center;
+padding-bottom: 30px;
+/* background-repeat: no-repeat; */
+
+   
+}
+.forum {
+    background-color: #262626;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0px;
+  }
+
+.card-mod{
+    border: 1px solid black !important;
+    border-radius: 5px;
+    background: #262626 !important;
+    width: 800px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    text-decoration-line: none;
+    margin-top: 5px;
+    
+}
+.card-mods{
+    border: 1px solid black !important;
+    border-radius: 5px;
+    background: #262626 !important;
+    width: 600px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    text-decoration-line: none;
+    margin-top: 5px;
+    
+}
+
+.user-name{
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: right;
+    text-decoration: none;
+    display: block;
+    float: right;
+}
+
+.user-name-c{
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: right;
+    text-decoration: none;
+    display: block;
+    float: right;
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+}
+
+.date{
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.date-c{
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn-push{
+    margin: auto;
+    
+ 
+}
+
+.card-text-discription{
+    max-width: 750px;
+    max-height:200px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-decoration-line: none;
+    color: white;
+}
+
+.card-text-topic{
+    color: white;
+    max-width: 750px;
+    max-height:200px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-decoration-line: none;
+}
+.card-text-topics{
+    color: white;
+    max-width: 550px;
+    max-height:200px;
+    text-decoration-line: none;
+    padding-top: 15px;
+}
+
+.post-page{
+    text-decoration: none;
+}
+
+
+.post-form{
+    background: #262626 !important;
+    width: 700px;
+    height: 280px;
+    margin-left: 110px;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+   border: 1px solid black;
+   color: white;
+    
+}
+
+.outline{
+    border-radius: 3px;
+    padding: 4px 16px;
+   margin-left: auto;
+   float: right;
+}
+.btn--outline:hover{
+    color: rgb(255, 0 , 0) !important;
+    border: 1px solid red;
+}
+
+.selector:active{
+    color: red;
+}
+
+.body-of-cards{
+    padding-bottom: 20px;
+}
+
+.btn-pushs{
+    margin: auto;
+    padding-top: 40px;
+    display: inline-block;
+    
+ 
+}
+
+.no-push{
+    display: inline-block !important;
+    margin-left: 170px;
+    margin-top: 10px;
+}
